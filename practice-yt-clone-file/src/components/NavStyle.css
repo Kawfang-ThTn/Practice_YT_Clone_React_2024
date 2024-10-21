@@ -94,3 +94,16 @@
     justify-content: center;
     align-items: center;
 }
+#nav .noti-menu{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .noti-menu:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
