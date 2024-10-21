@@ -1,0 +1,11 @@
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav .bar-logo{
+    display: grid;
+    grid-template-columns: 40px auto; /* columnแรก 40px ข้างหลัง auto*/
+    align-items: center;
+    height: 100%;
+}
