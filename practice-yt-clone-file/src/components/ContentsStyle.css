@@ -14,14 +14,14 @@
 }
 
 
-.about .chanel-img{
+.card .chanel-img{
     width: 44px;
     height: 36px;
     display: flex;
     overflow: hidden;
 }
 
-.about .chanel-img img{
+.card .chanel-img img{
     border-radius: 10rem;
 }
 
@@ -31,13 +31,26 @@
    
 }
 
-.card .chanel-detail .detail-title{
+.card .title{
     display: -webkit-box;
     text-overflow: ellipsis;
-    
     overflow: hidden;
     -webkit-box-orient: vertical;
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 2.2rem;
+    color: #0f0f0f;
+    margin-bottom: 4px;
+}
+
+.card .chanel{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #606060;
+}
+
+.card .view{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #606060;
 }
