@@ -8,8 +8,8 @@ CREATE TABLE video_long (
     video_created_at DATETIME NOT NULL,
     video_updated_at DATETIME NOT NULL,
     channel_id INT NOT NULL,
-    PRIMARY KEY (video_id),
-)
+    PRIMARY KEY (video_id)
+);
 
 CREATE TABLE video_short (
     video_id INT NOT NULL AUTO_INCREMENT,
@@ -21,8 +21,8 @@ CREATE TABLE video_short (
     video_created_at DATETIME NOT NULL,
     video_updated_at DATETIME NOT NULL,
     channel_id INT NOT NULL,
-    PRIMARY KEY (video_id),
-)
+    PRIMARY KEY (video_id)
+);
 
 CREATE TABLE channels (
     channel_id INT NOT NULL AUTO_INCREMENT,
@@ -33,14 +33,14 @@ CREATE TABLE channels (
     channel_profile_picture VARCHAR(255) NOT NULL,
     channel_created_at DATETIME NOT NULL,
     channel_updated_at DATETIME NOT NULL,
-    PRIMARY KEY (channel_id),
-)
+    PRIMARY KEY (channel_id)
+);
 
 CREATE TABLE channel_subscribe (
     channel_id INT NOT NULL ,
     user_id INT NOT NULL
-    PRIMARY KEY (channel_id , user__id),
-)
+    PRIMARY KEY (channel_id , user__id)
+);
 
 CREATE TABLE users (
     user_id INT NOT NULL AUTO_INCREMENT,
@@ -52,8 +52,8 @@ CREATE TABLE users (
     last_name VARCHAR(255) NOT NULL,
     user_created_at DATETIME NOT NULL,
     user_updated_at DATETIME NOT NULL,
-    PRIMARY KEY (user_id),
-)
+    PRIMARY KEY (user_id)
+);
 
 CREATE TABLE comments (
     comment_id INT NOT NULL AUTO_INCREMENT,
@@ -62,8 +62,8 @@ CREATE TABLE comments (
     comment_text VARCHAR(255) NOT NULL,
     comment_created_at DATETIME NOT NULL,
     comment_updated_at DATETIME NOT NULL,
-    PRIMARY KEY (comment_id),
-)
+    PRIMARY KEY (comment_id)
+);
 
 CREATE TABLE popular (
     video_id INT NOT NULL,
@@ -73,5 +73,5 @@ CREATE TABLE popular (
     comment_count INT NOT NULL,
     created_at DATETIME NOT NULL,
     updated_at DATETIME NOT NULL,
-    PRIMARY KEY (video_id),
-)
+    PRIMARY KEY (video_id)
+);
