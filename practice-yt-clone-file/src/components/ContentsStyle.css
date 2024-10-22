@@ -1,0 +1,43 @@
+#tag-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    padding: 0 24px;
+    padding-bottom: 20px;
+}
+
+.card .thumbnail{
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+
+.about .chanel-img{
+    width: 44px;
+    height: 36px;
+    display: flex;
+    overflow: hidden;
+}
+
+.about .chanel-img img{
+    border-radius: 10rem;
+}
+
+.card .about {
+    display: grid;
+    grid-template-columns:44px auto 40px ;
+   
+}
+
+.card .chanel-detail .detail-title{
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+}
