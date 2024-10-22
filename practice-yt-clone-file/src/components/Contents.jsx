@@ -22,7 +22,7 @@ function Contents() {
             <div className="detail">
               <div className="title">ทดลองโคลนนิ่งยูทูป</div>
               <div className="chanel">Kawfang-ThTn</div>
-              <div className="view">การดู 44.44 ล้านครั้ง • 4 วันที่ผ่านมา</div>
+              <div className="view">การดู 44.4 ล้านครั้ง • 4 วันที่ผ่านมา</div>
             </div>
 
           </div>
@@ -42,7 +42,7 @@ function Contents() {
             <div className="detail">
               <div className="title">ทดลองโคลนนิ่งยูทูป</div>
               <div className="chanel">Kawfang-ThTn</div>
-              <div className="view">การดู 44.44 ล้านครั้ง • 4 วันที่ผ่านมา</div>
+              <div className="view">การดู 44.4 ล้านครั้ง • 4 วันที่ผ่านมา</div>
             </div>
 
           </div>
@@ -62,7 +62,7 @@ function Contents() {
             <div className="detail">
               <div className="title">ทดลองโคลนนิ่งยูทูป</div>
               <div className="chanel">Kawfang-ThTn</div>
-              <div className="view">การดู 44.44 ล้านครั้ง • 4 วันที่ผ่านมา</div>
+              <div className="view">การดู 44.4 ล้านครั้ง • 4 วันที่ผ่านมา</div>
             </div>
 
           </div>
@@ -82,7 +82,7 @@ function Contents() {
             <div className="detail">
               <div className="title">ทดลองโคลนนิ่งยูทูป</div>
               <div className="chanel">Kawfang-ThTn</div>
-              <div className="view">การดู 44.44 ล้านครั้ง • 4 วันที่ผ่านมา</div>
+              <div className="view">การดู 44.4 ล้านครั้ง • 4 วันที่ผ่านมา</div>
             </div>
 
           </div>
@@ -102,7 +102,7 @@ function Contents() {
             <div className="detail">
               <div className="title">ทดลองโคลนนิ่งยูทูป</div>
               <div className="chanel">Kawfang-ThTn</div>
-              <div className="view">การดู 44.44 ล้านครั้ง • 4 วันที่ผ่านมา</div>
+              <div className="view">การดู 44.4 ล้านครั้ง • 4 วันที่ผ่านมา</div>
             </div>
 
           </div>
@@ -122,7 +122,7 @@ function Contents() {
             <div className="detail">
               <div className="title">ทดลองโคลนนิ่งยูทูป</div>
               <div className="chanel">Kawfang-ThTn</div>
-              <div className="view">การดู 44.44 ล้านครั้ง • 4 วันที่ผ่านมา</div>
+              <div className="view">การดู 44.4 ล้านครั้ง • 4 วันที่ผ่านมา</div>
             </div>
 
           </div>

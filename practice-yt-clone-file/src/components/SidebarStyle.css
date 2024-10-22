@@ -9,6 +9,7 @@
     display: grid;
     grid-auto-rows: 40px;
     align-items: center;
+    border-bottom: 1px solid #e5e5e5e5;
 }
 
 .main-side .side-item{
